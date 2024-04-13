@@ -8,8 +8,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="h-[100vh] flex justify-center items-center bg-slate-900 text-white outline-double outline-orange-600">
-  <div class="container w-fit border-4 rounded-2xl shadow-2xl shadow-green-600 p-12 flex justify-center flex-col font-bold text-lg" id="container">
-    <h1 class="text-4xl">Password Generator</h1>
+  <div class="container sm:w-1/6 md:w-fit border-4 rounded-2xl shadow-2xl shadow-green-600 p-8 md:p-12 flex justify-center flex-col font-bold text-lg " id="container">
+    <h1 class="text-3xl py-2 md:text-4xl text-center">Password Generator</h1>
     <!-- Password Box -->
     <div type="text" class="w-full border-gray-600 border-2 rounded-lg text-slate-500 pl-2 my-6 py-2" name="generated" id="passBox">
       <span class="text-slate-400 ps-2" id="result">Click on Generate Button</span>
@@ -17,8 +17,8 @@
     <span id="show-Error" class="w-full text-center md:w-96"></span>
     <!-- Buttons -->
     <div class="text-white flex justify-between w-full mb-4 tracking-widest" id="mainbtn">
-      <button class="bg-purple-600 px-4 mr-2 py-2 rounded-lg hover:bg-purple-500 active:text-green-300" id="generate">Generate</button>
-      <button class="bg-purple-600 px-4 py-2 ml-2 rounded-lg hover:bg-purple-500 outline-purple-600 active:text-green-300" id="clipboard">Copy to Clipboard</button>
+      <button class="bg-purple-600 px-3 md:px-4 mr-2 py-1  md:py-2 rounded-lg hover:bg-purple-500 active:text-green-300" id="generate">Generate</button>
+      <button class="bg-purple-600 px-3 md:px-4 ml-2 py-1  md:py-2 rounded-lg hover:bg-purple-500 outline-purple-600 active:text-green-300" id="clipboard">Copy to Clipboard</button>
     </div>
     
     <!-- Criteria -->
